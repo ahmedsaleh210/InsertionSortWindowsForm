@@ -39,8 +39,8 @@ namespace insertion_sort
                 intArray[j + 1] = temp;
                 progressBar1.Value = i+1;
             }
-            string outputString = string.Join(" ", intArray);
-            textBox2.Text = outputString;
+            string sortedArr = string.Join(" ", intArray);
+            textBox2.Text = sortedArr;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
